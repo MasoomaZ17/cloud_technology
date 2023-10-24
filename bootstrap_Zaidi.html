@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Masooma Zaidi</title>
+  </head>
+  <body>
+    <h1 class="display-3 text-info bg-primary text-center p-2 mb-5">Masooma Zaidi</h1>
+    <p>Use of a mark in <b class="mark">Bootstrap</b> </p>
+    <p>Use <kbd style="background-color:blue;">Ctrl + p</kbd>to open the Print dialong box.</p>
+    <p class="blockquote-footer">From Wikipedia.org website</p>
+    <figure class="p-5">
+        <img src="images/porche 911 gt3rs.jpg" alt="dream car" width="28%" class="rounded m-3">
+        <img src="images/porche 911 gt3rs.jpg" alt="dream car" width="28%" class="rounded-circle m-3">
+        <img src="images/porche 911 gt3rs.jpg" alt="dream car" width="28%" class="img-thumbnail m-3">
+    </figure>
+
+    <h2 class="bg-warning text-primary text-center p-3">The Basic List Groups</h2>
+    <h3>Food Shopping</h3>
+    <ul class="list-group m-3">
+      <li class="list-group-item">Apple</li>
+      <li class="list-group-item">Milk</li>
+      <li class="list-group-item active">Cereal</li>
+    </ul>
+
+    <h2 class="bg-warning text-primary text-center p-3">Dropdown</h2>
+    <div class="dropdown m-4">
+      <button type="button" class="drowpdown-toggle btn btn-secondary" data-bs-toggle="dropdown">CUNY Community College</button>
+      <ul class="dropdown-menu">
+        <li class="bg-light"><h5 class="dropdown-header">Borough of Queens</h5></li>
+        <li><a href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">QCC</a></li>
+        <li><a href="https://www.bmcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">BMCC</a></li>
+
+        <li class="bg-light"><h5 class="dropdown-header">Borough of Manhattan</h5></li>
+        <li><a href="https://www.laguardia.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">La Guardia</a></li>
+      </ul>
+    </div>
+    <h2 class="bg-warning text-primary text-center p-3">Group Dropdown Menu</h2>
+    <div class="btn-group m-3">
+      <button type="button" class="btn-danger btn">Home</button>
+      <button type="button" class="btn-danger btn dropdown-toggle" data-bs-toggle="dropdown" >CUNY Community College</button>
+      <button type="button" class="btn-danger btn">Bootsrap Images</button>
+
+      <ul class="dropdown-menu">
+        <li class="bg-light"><h5 class="dropdown-header">Borough of Queens</h5></li>
+        <li><a href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">QCC</a></li>
+        <li><a href="https://www.bmcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">BMCC</a></li>
+
+        <li class="bg-light"><h5 class="dropdown-header">Borough of Manhattan</h5></li>
+        <li><a href="https://www.laguardia.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">La Guardia</a></li>
+      </ul>
+    </div>
+
+
+    <h2 class="bg-warning text-primary text-center p-3">Collapsible</h2>
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#car">Info about Cars</button>
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#flower">Info about Flowers</button>
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#spider-man">Info about Spider-Man</button>
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#cat">Info about Cats</button>
+    <div id="car" class="collapse">
+      <p class="p-3">It is powered by a 4.0-liter flat-six naturally aspirated engine that delivers 520 hp.</p>
+      <img src="images/porche 911 gt3rs.jpg" alt="Image of Porche 911 GT3RS" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer m-4">Photo by Google</p>
+    </div>
+    <div id="flower" class="collapse">
+      <p class="p-3">Dandelion wine was widely used throughout Europe for medicinal purposes.</p>
+      <img src="images/dandelions.jpg" alt="Image of Dandelions" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer m-4">Photo by Google</p>
+    </div>
+
+    <div id="spider-man" class="collapse">
+      <p class="p-3">Spider-man can bench press 10 tons and has a top speed of 200 mph.</p>
+      <img src="images/spiderman.jpg" alt="Image of Spider-Man" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer m-4">Photo by Google</p>
+    </div>
+
+    <div id="cat" class="collapse">
+      <p class="p-3">According to The Huffington Post, cats typically sleep for 12 to 16 hours a day.</p>
+      <img src="images/cats.jpg" alt="Image of Kitten" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer m-4">Photo by Google</p>
+    </div>
+
+    <h1 class="bg-light mt-5 p-3">Layouts</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 col-sm-11 bg-primary p-3 m-4"><img src="images/dandelions.jpg" width="100%"></div>
+        <div class="col-md-5 col-sm-11 bg-dark p-3 m-4 text-light rounded"><h2>Dandelion</h2><p>Column Right</p></div>
+      </div>
+    </div>
+
+    <h1 class="bg-light mt-5 p-3">Cards</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <section class="card col-lg-3 m-4 col-sm-10">
+          <div class="card-header">
+            <h2 class="card-title">Cars</h2>
+            <p class="card-substitute">Porche 911 GT3RS</p>
+          </div>
+          <div class="card-body">
+            <img src="images/porche 911 gt3rs.jpg" class="card-img img-fluid">
+            <p class="card-text">An athlete both on and off the track, this all-new aerodynamic wonder follows its 2013 predecessor – the 911 GT3 RS (Type 991 II) – and is presented in a more radical form than ever before, thanks to its lightweight construction and incredible attention to detail. Never before has Porsche put such levels of effort into the development of one of its Porsche GT sportscars. Packing 40kg more downforce, the 911 GT3 RS also hits a new milestone in Porsche road car aerodynamics, with its perfect aero balance equalling a set-up that’s suitable for every condition on the racetrack. “With over 1,500 simulations and 250 hours spent in the wind tunnel, we’ve been able to achieve a new level of performance.</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="card-link">About GT3RS</a>
+            <a href="" class="card-link">Power and Speed</a>
+            <a href="" class="card-link">Difference between 911 GT3 and 911 GT3RS</a>
+          </div>
+        </section>
+
+        <section class="card col-3 m-4 col-sm-10 bg-danger text-light">
+          <img src="images/cats.jpg" class="card-img-top" width="100%">
+          <div class="card-body">
+            <h2 class="card-title">Grey Cats</h2>
+            <p class="card-substitute"><i class="text-muted"></i>Sleepy Cat</p>
+            <p class="card-text">This doesn’t mean that cats don’t get dental disease—in fact, up to 90% of cats more than 4 years old have dental problems. However, they don’t get the types of cavities that people do, in part because of the pointed shape of cat teeth (compared to the flat teeth in humans). Instead, cats get feline resorptive lesions, in which the dentin wears away, leaving them with a painful mouth. Cats also get gingivitis, stomatitis, and periodontal disease. Dental disease is not just painful; it can shorten the life of your cat. Keep up with regular tooth brushing at home with a cat-friendly toothpaste and schedule dental cleanings as recommended by your vet.</p>
+            <a href="" class="card-link text-primary">About Cats</a>
+            <a href="" class="card-link text-primary">Life-Expectancy</a>
+            <a href="" class="card-link text-primary">Types of Cats</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="card col-3 m-2 col-sm-10">
+        <div class="card-body">
+          <img src="images/spiderman.jpg" class="card-img">
+          <h2  class="card-title">Spider-Man</h2>
+          <p><i class="card-substitute">Superhero</i></p>
+          <p class="card-text">Thwip! With a single bite from a radioactive spider in the summer of 1962, New York high school nerd Peter Parker was transformed into the world’s favorite webslinging crimefighter, dispensing wisecracks along with monthly bouts of four-color justice in what would become Marvel Comics‘ marquee series — and a new way of writing the increasingly popular American cultural phenomenon of superhero comics.</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="" class="card-link">About Spider-Man</a></li>
+            <li class="list-group-item"><a href="" class="card-link"></a>Variations of Spider-Man</li>
+            <li class="list-group-item"><a href="" class="card-link">Movies and Comics</a></li>
+      </section>
+    </div>
+
+    <h1 class="bg-light mt-5 p-3">Class Activity</h1>
+    <div class="container-fluid">
+      <div class="row">
+            <section class="card col-lg-2 col-md-6 col-sm-10 m-4">
+              <div class="card-header">
+                <h2 class="card-title">Cars</h2>
+                <p class="card-substitute">Porche 911 GT3RS</p>
+              </div>
+              <div class="card-body">
+                <img src="images/porche 911 gt3rs.jpg" class="card-img img-fluid">
+                <p class="card-text">An athlete both on and off the track, this all-new aerodynamic wonder follows its 2013 predecessor – the 911 GT3 RS (Type 991 II) – and is presented in a more radical form than ever before, thanks to its lightweight construction and incredible attention to detail. Never before has Porsche put such levels of effort into the development of one of its Porsche GT sportscars. Packing 40kg more downforce, the 911 GT3 RS also hits a new milestone in Porsche road car aerodynamics, with its perfect aero balance equalling a set-up that’s suitable for every condition on the racetrack. “With over 1,500 simulations and 250 hours spent in the wind tunnel, we’ve been able to achieve a new level of performance.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="card-link">About GT3RS</a>
+                <a href="" class="card-link">Power and Speed</a>
+                <a href="" class="card-link">Difference between 911 GT3 and 911 GT3RS</a>
+              </div>
+            </section>
+
+            <section class="card col-lg-2 col-md-6 col-sm-10 m-4">
+              <div class="card-header">
+                <h2 class="card-title">Cars</h2>
+                <p class="card-substitute">Porche 911 GT3RS</p>
+              </div>
+              <div class="card-body">
+                <img src="images/porche 911 gt3rs.jpg" class="card-img img-fluid">
+                <p class="card-text">An athlete both on and off the track, this all-new aerodynamic wonder follows its 2013 predecessor – the 911 GT3 RS (Type 991 II) – and is presented in a more radical form than ever before, thanks to its lightweight construction and incredible attention to detail. Never before has Porsche put such levels of effort into the development of one of its Porsche GT sportscars. Packing 40kg more downforce, the 911 GT3 RS also hits a new milestone in Porsche road car aerodynamics, with its perfect aero balance equalling a set-up that’s suitable for every condition on the racetrack. “With over 1,500 simulations and 250 hours spent in the wind tunnel, we’ve been able to achieve a new level of performance.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="card-link">About GT3RS</a>
+                <a href="" class="card-link">Power and Speed</a>
+                <a href="" class="card-link">Difference between 911 GT3 and 911 GT3RS</a>
+              </div>
+            </section>
+
+            <section class="card col-lg-2 col-md-6 col-sm-10 m-4">
+              <div class="card-header">
+                <h2 class="card-title">Cars</h2>
+                <p class="card-substitute">Porche 911 GT3RS</p>
+              </div>
+              <div class="card-body">
+                <img src="images/porche 911 gt3rs.jpg" class="card-img img-fluid">
+                <p class="card-text">An athlete both on and off the track, this all-new aerodynamic wonder follows its 2013 predecessor – the 911 GT3 RS (Type 991 II) – and is presented in a more radical form than ever before, thanks to its lightweight construction and incredible attention to detail. Never before has Porsche put such levels of effort into the development of one of its Porsche GT sportscars. Packing 40kg more downforce, the 911 GT3 RS also hits a new milestone in Porsche road car aerodynamics, with its perfect aero balance equalling a set-up that’s suitable for every condition on the racetrack. “With over 1,500 simulations and 250 hours spent in the wind tunnel, we’ve been able to achieve a new level of performance.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="card-link">About GT3RS</a>
+                <a href="" class="card-link">Power and Speed</a>
+                <a href="" class="card-link">Difference between 911 GT3 and 911 GT3RS</a>
+              </div>
+            </section>
+
+            <section class="card col-lg-2 col-md-6 col-sm-10 m-4">
+              <div class="card-header">
+                <h2 class="card-title">Cars</h2>
+                <p class="card-substitute">Porche 911 GT3RS</p>
+              </div>
+              <div class="card-body">
+                <img src="images/porche 911 gt3rs.jpg" class="card-img img-fluid">
+                <p class="card-text">An athlete both on and off the track, this all-new aerodynamic wonder follows its 2013 predecessor – the 911 GT3 RS (Type 991 II) – and is presented in a more radical form than ever before, thanks to its lightweight construction and incredible attention to detail. Never before has Porsche put such levels of effort into the development of one of its Porsche GT sportscars. Packing 40kg more downforce, the 911 GT3 RS also hits a new milestone in Porsche road car aerodynamics, with its perfect aero balance equalling a set-up that’s suitable for every condition on the racetrack. “With over 1,500 simulations and 250 hours spent in the wind tunnel, we’ve been able to achieve a new level of performance.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="card-link">About GT3RS</a>
+                <a href="" class="card-link">Power and Speed</a>
+                <a href="" class="card-link">Difference between 911 GT3 and 911 GT3RS</a>
+              </div>
+            </section>
+      </div>
+
+    </div>
+   
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
